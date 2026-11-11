@@ -24,8 +24,8 @@ describe("bride's family wedding details (IST)", () => {
     expect(VENUE.address).toBe("Nagole – Bandlaguda Road, Hyderabad");
   });
   it("hosted by the Devella family, parents named", () => {
-    expect(DICTS.en.familyNames).toBe("The Devella family");
-    expect(DICTS.en.brideParent).toBe("Smt. Aparna Devella & Late Shri Natraj Yellambatla");
+    expect(DICTS.en.familyNames).toBe("Devalla Vishwanath and Neelima");
+    expect(DICTS.en.brideParent).toBe("Smt. Aparna Devella & Shri Natraj Yellambatla");
   });
   it("no groom-side events remain anywhere in the text", () => {
     const all = JSON.stringify(DICTS);

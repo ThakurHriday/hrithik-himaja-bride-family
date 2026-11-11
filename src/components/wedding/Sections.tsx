@@ -37,11 +37,11 @@ function Invitation() {
         </Reveal>
         <Reveal delay={150} className="my-8 sm:my-10">
           <h2 className={cn("text-gold-gradient leading-tight", lang === "hi" ? "font-deva text-[clamp(2.4rem,9vw,4rem)]" : "font-serif font-normal tracking-[-0.035em] text-[clamp(3rem,10vw,6.5rem)]")}>
-            {t.groom}
+            {t.bride}
           </h2>
           <p className={cn("my-1 text-gold", lang === "hi" ? "font-deva text-2xl" : "font-script text-[clamp(2.4rem,7vw,3.5rem)] leading-none")}>{t.and}</p>
           <h2 className={cn("text-gold-gradient leading-tight", lang === "hi" ? "font-deva text-[clamp(2.4rem,9vw,4rem)]" : "font-serif font-normal tracking-[-0.035em] text-[clamp(3rem,10vw,6.5rem)]")}>
-            {t.bride}
+            {t.groom}
           </h2>
         </Reveal>
         <Ornament className="mb-12" />
@@ -79,15 +79,15 @@ function Lineage() {
 
             {/* the couple */}
             <div className="mx-auto mt-10 max-w-3xl border-y border-gold/30 bg-ivory/[0.035] px-4 py-[clamp(2rem,5vw,3.5rem)] sm:mt-14 sm:px-10">
-              <h3 className={name}>{t.groom}</h3>
-              <p className={parents}>{t.groomParentsLine}</p>
+              <h3 className={name}>{t.bride}</h3>
+              <p className={parents}>{t.brideParentLine}</p>
               <div className="my-4 flex items-center justify-center gap-4 sm:my-5">
                 <span aria-hidden className="h-px w-[min(8rem,18vw)] bg-gradient-to-r from-transparent to-gold/60" />
                 <span className={cn("text-gold-gradient leading-none", hi ? "font-deva text-3xl" : "font-script text-[clamp(2.4rem,5vw,3.4rem)]")}>{t.weds}</span>
                 <span aria-hidden className="h-px w-[min(8rem,18vw)] bg-gradient-to-l from-transparent to-gold/60" />
               </div>
-              <h3 className={name}>{t.bride}</h3>
-              <p className={parents}>{t.brideParentLine}</p>
+              <h3 className={name}>{t.groom}</h3>
+              <p className={parents}>{t.groomParentsLine}</p>
             </div>
 
             {/* date, time, venue, address */}
@@ -365,7 +365,7 @@ function Closing() {
         </Reveal>
         <Reveal delay={250}>
           <p className={cn("text-gold-gradient leading-tight", lang === "hi" ? "font-deva text-5xl" : "font-script text-[clamp(3rem,12vw,5rem)]")}>
-            {lang === "hi" ? `${t.groom.split(" ")[0]} और ${t.bride}` : "Hrithik & Himaja"}
+            {lang === "hi" ? `${t.bride} और ${t.groom.split(" ")[0]}` : "Himaja & Hrithik"}
           </p>
           <p className="i18n mt-3 font-display text-xs uppercase tracking-[0.35em] text-gold-soft/70">{t.closingSee}</p>
           <p className="i18n mt-10 font-display text-xs uppercase tracking-[0.35em] text-gold-soft/75">{t.invitedBy}</p>
