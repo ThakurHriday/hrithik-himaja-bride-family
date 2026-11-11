@@ -133,10 +133,10 @@ export const GrandNameReveal = forwardRef<HTMLDivElement, Props>(function GrandN
         <h1
           className={`mt-[0.12em] flex font-display font-semibold leading-[1.08] ${p.stacked ? "flex-col items-center" : "flex-row items-baseline gap-[0.28em]"}`}
           style={{ fontSize: p.font }}
-          aria-label="Hrithik and Himaja"
+          aria-label="Himaja and Hrithik"
         >
           <span className={`reveal-name text-gold-gradient tracking-wide ${step >= 5 ? "settled" : ""}`} style={nameStyle(step >= 2)}>
-            HRITHIK
+            HIMAJA
           </span>
           <span
             className="reveal-name font-serif font-normal italic text-diya"
@@ -145,7 +145,7 @@ export const GrandNameReveal = forwardRef<HTMLDivElement, Props>(function GrandN
             &amp;
           </span>
           <span className={`reveal-name text-gold-gradient tracking-wide ${step >= 5 ? "settled" : ""}`} style={nameStyle(step >= 4)}>
-            HIMAJA
+            HRITHIK
           </span>
         </h1>
         <div className={`reveal-fade mt-[0.18em] flex items-center ${step >= 5 ? "on" : ""}`} aria-hidden>

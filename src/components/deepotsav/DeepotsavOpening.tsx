@@ -315,7 +315,7 @@ export function DeepotsavOpening() {
             className="anim-fade-up text-gold-gradient mt-1 font-display font-semibold leading-tight [text-shadow:0_0_30px_oklch(0.8_0.15_70/0.35)]"
             style={{ fontSize: "clamp(1.5rem, min(5vw, 7vh), 4.8rem)", animationDelay: ".3s" }}
           >
-            HRITHIK <span className="font-serif italic text-diya">&amp;</span> HIMAJA
+            HIMAJA <span className="font-serif italic text-diya">&amp;</span> HRITHIK
           </p>
         </div>
       )}
